@@ -12,6 +12,7 @@ public class Main {
 		while (true) {
 			System.out.println("[1] Cadastrar Livro\n[2] Listar Livros\n[3] Editar Livros\n[4] Sair\n\nEscolha uma opção");
 			int escolha = input.nextInt();
+			input.nextLine();
 
 			switch (escolha) {
 			case 1:
